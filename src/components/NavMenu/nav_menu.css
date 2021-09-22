@@ -1,0 +1,26 @@
+.nav_menu{
+    position: relative;
+    height: 50px;
+    border-bottom: 1px solid #E8E8E8;
+}
+
+.nav_menu_inner{
+    display: flex;
+    justify-content: space-around;
+    list-style-type: none;
+    cursor: pointer;
+    font-weight: bold;
+}
+
+@media (max-width: 980px){
+
+    /* .upper_area{
+        min-height: 300px;
+        margin-top: 640px;
+    } */
+
+    .nav_menu{
+        display: none;
+    }
+
+}
